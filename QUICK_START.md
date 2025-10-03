@@ -191,3 +191,52 @@ Data analysis is all about curiosity and exploration. Don't be afraid to:
 ---
 
 *Happy Analyzing! 📖✨*
+
+
+🔒 Closing Your Session
+1. Stop Jupyter Notebook
+In the terminal where Jupyter is running, press:
+Ctrl + C
+Then press y to confirm shutdown.
+
+2. Save Your Git Changes (Optional but Recommended)
+If you want to save your progress to GitHub:
+cd ~/Desktop/Workspace/bible-text-analysis
+git add .
+git commit -m "Setup complete - ready to start analysis"
+git push
+
+3. Deactivate Virtual Environment (Optional)
+If you activated it manually:
+deactivate
+
+🚀 When You Come Back Later
+To Resume Your Work:
+# 1. Navigate to your project
+cd ~/Desktop/Workspace/bible-text-analysis
+
+# 2. Start Jupyter Notebook
+./.venv/bin/jupyter notebook
+
+That's it! Jupyter will open in your browser and you can continue where you left off.
+
+📋 Quick Reference Card
+Start Working:
+cd ~/Desktop/Workspace/bible-text-analysis
+./.venv/bin/jupyter notebook
+
+Stop Jupyter:
+
+Press Ctrl + C in terminal
+Confirm with y
+
+Save to GitHub:
+git add .
+git commit -m "Your message here"
+git push
+
+📖 Remember
+Your notebook 00_getting_started.ipynb is ready to use
+All your data is in data/raw/kjv_bible.txt
+Documentation is in QUICK_START.md and README.md
+Have a great session later! Happy analyzing! 📊✨
